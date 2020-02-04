@@ -14,6 +14,7 @@ class CashRegister
   
   def apply_discount 
     @total = @total - @total * @discount/100
+    puts "After the discount, the total comes to #{@total}."
   end
   
   def void_last_transaction 
