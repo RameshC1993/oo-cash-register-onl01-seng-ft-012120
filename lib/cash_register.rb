@@ -4,8 +4,8 @@ class CashRegister
   def initialize(discount = 0)
     @total = 0 
     @discount = discount 
-    @last_transaction = last_transaction
-    @item = item
+    #@last_transaction = last_transaction
+    #@item = item
   end
   
   def add_item(title, price, quantity = 1)
